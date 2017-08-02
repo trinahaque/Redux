@@ -37,3 +37,8 @@ const Counter = ({
             <button onCLick={onDecrement}>-</button>
         </div>
 )
+
+
+
+// avoid array mutations with concet(), slice(), ...spread
+// change items in an array without mutating them
