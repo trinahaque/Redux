@@ -22,7 +22,7 @@ const store = createStore(reducerFunction);
 // first method is getState that helps us get the initial state
 store.getState();
 
-// dispatch allows to change action
+// dispatches action to allow the change in the state
 store.dispatch({type: 'Increment'});
 
 
@@ -31,6 +31,8 @@ const render = () => {
     document.body.innerText = store.getState();
 }
 
+// store.subscribe renders to the body
+// registers a callback that the store will call anytime an action has been dispatched
 store.subscribe(render);
 render();
 
