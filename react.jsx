@@ -23,6 +23,9 @@ const render = () => {
     )
 }
 
+
+// Counter is a dumb function
+// It has no logic, it determines how things are rendered
 const Counter = ({ 
     value,
     onIncrement,
