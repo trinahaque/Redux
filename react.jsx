@@ -44,7 +44,7 @@ const Counter = ({
 // change items in an array without mutating them
 
 // push --> concat
-// splice --> slice
+// splice --> sliced
 // spread (...list) --> ES6
 
 // object Assign --> new to ES6 and not supported by all browsers
