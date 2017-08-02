@@ -38,7 +38,18 @@ const Counter = ({
         </div>
 )
 
-
+// deepFreeze ==> avoids mutations in original array
 
 // avoid array mutations with concet(), slice(), ...spread
 // change items in an array without mutating them
+
+// push --> concat
+// splice --> slice
+// spread (...list) --> ES6
+
+// object Assign --> new to ES6 and not supported by all browsers
+
+// expect function can be used to test outcome
+expect(
+    todos(stateBefore, action)  
+).toEqual(stateAfter)
